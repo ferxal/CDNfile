@@ -12,3 +12,6 @@ D:\UserDesktop\gimer>mine_etc+kaspa+zil.bat
 
 D:\UserDesktop\gimer>miner.exe --algo kheavyhash --server kas-asia.f2pool.com:1400 --user chenhen.worker1 --algo etchash --server etc-zil.f2pool.com:6200 --user chenhen.worker1
 argument "--algo" already specified
+
+
+https://asdf.888545.xyz/api/v1/client/subscribe?token=7b18b00265c276f035d46169a7cc65ab
