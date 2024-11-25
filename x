@@ -1,6 +1,8 @@
 ./miner --algo etchash --server etct1.pool.cn.com:60009 --user chenhen.worker3 --cache_dag 1
 ./miner --algo etchash --server etc-zil.f2pool.com:6200 --user chenhen.worker1 --dalgo kheavyhash --dserver kas-asia.f2pool.com:1400 --duser chenhen.worker1
 
+./miner --algo etchash --server etc-zil.f2pool.com:6200 --user chenhen.studio --dalgo kheavyhash --dserver kas-asia.f2pool.com:1400 --duser chenhen.studio
+
 
 http://pool.supportxmr.com:7777   42jTzfC16E9AECzbTgk1mH574L7MtXQL8QGCD5BkhA2fWGKPxksLQCHCog8hUhL6W8KuwrTvfWh9nLHD5zp7eL65C4MQzfn
 
