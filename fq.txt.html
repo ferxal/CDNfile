@@ -1,6 +1,176 @@
-clash下载  https://down.clashcn.com/soft/clashcn.com_cmfa-2.10.1-meta-universal-release.apk
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>资源中心</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', system-ui, sans-serif;
+        }
 
-链接    https://client-sub.aisu.life/s/237dedd6ce3403bce9da773b797c51b6
+        body {
+            background: #f0f2f5;
+            line-height: 1.6;
+            padding: 20px;
+        }
 
-QQ号: 1605204193
-视频链接：  https://www.chenhen.dynv6.net/sp.mp4
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 12px;
+            box-shadow: 0 2px 15px rgba(0,0,0,0.1);
+            padding: 30px;
+        }
+
+        h1 {
+            color: #2c3e50;
+            text-align: center;
+            margin-bottom: 30px;
+            font-size: 2.2em;
+        }
+
+        .section {
+            margin-bottom: 25px;
+            padding: 20px;
+            background: #f8f9fa;
+            border-radius: 8px;
+        }
+
+        .button-group {
+            display: flex;
+            gap: 10px;
+            align-items: center;
+            margin-top: 10px;
+        }
+
+        .btn {
+            padding: 8px 16px;
+            border: none;
+            border-radius: 6px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            text-decoration: none;
+            display: inline-flex;
+            align-items: center;
+        }
+
+        .btn-download {
+            background: #00a67c;
+            color: white;
+        }
+
+        .btn-copy {
+            background: #3498db;
+            color: white;
+        }
+
+        .btn:hover {
+            opacity: 0.9;
+            transform: translateY(-1px);
+        }
+
+        .url-text {
+            color: #666;
+            font-size: 0.9em;
+            word-break: break-all;
+            flex-grow: 1;
+        }
+
+        .video-container {
+            margin-top: 30px;
+            background: #333;
+            border-radius: 8px;
+            overflow: hidden;
+        }
+
+        video {
+            width: 100%;
+            height: auto;
+            max-height: 450px;
+        }
+
+        @media (max-width: 768px) {
+            .container {
+                padding: 15px;
+            }
+            
+            .button-group {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+            
+            .btn {
+                width: 100%;
+                justify-content: center;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>📁 资源中心</h1>
+
+        <div class="section">
+            <h2>Clash 翻墙下载（安装这个）</h2>
+            <div class="button-group">
+                <a href="https://down.clashcn.com/soft/clashcn.com_cmfa-2.10.1-meta-universal-release.apk" class="btn btn-download">
+                    ⬇️ 一键下载
+                </a>
+                <span class="url-text">https://down.clashcn.com/soft/clashcn.com_cmfa-2.10.1-meta-universal-release.apk</span>
+                <button class="btn btn-copy" onclick="copyText(this, 'https://down.clashcn.com/soft/clashcn.com_cmfa-2.10.1-meta-universal-release.apk')">
+                    📋 复制链接
+                </button>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>翻墙订阅链接（先复制然后看最下面视频）</h2>
+            <div class="button-group">
+                <a href="https://liangxin.xyz/api/v1/liangxin?OwO=fa455f4924850ad0e3263be4d657b96d" class="btn btn-download">
+                    🔗 打开链接
+                </a>
+                <span class="url-text">https://liangxin.xyz/api/v1/liangxin?OwO=fa455f4924850ad0e3263be4d657b96d</span>
+                <button class="btn btn-copy" onclick="copyText(this, 'https://liangxin.xyz/api/v1/liangxin?OwO=fa455f4924850ad0e3263be4d657b96d')">
+                    📋 复制链接
+                </button>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>加QQ</h2>
+            <div class="button-group">
+                <span class="url-text">1605204193</span>
+                <button class="btn btn-copy" onclick="copyText(this, '1605204193')">
+                    📋 复制QQ号
+                </button>
+            </div>
+        </div>
+
+        <div class="video-container">
+            <video controls>
+                <source src="https://tc.qdqqd.com/1uHze1.mp4" type="video/mp4">
+                您的浏览器不支持视频播放
+            </video>
+        </div>
+    </div>
+
+    <script>
+        function copyText(button, text) {
+            navigator.clipboard.writeText(text).then(() => {
+                const originalText = button.innerHTML;
+                button.innerHTML = '✅ 复制成功！';
+                setTimeout(() => {
+                    button.innerHTML = originalText;
+                }, 1500);
+            }).catch(err => {
+                console.error('复制失败:', err);
+            });
+        }
+    </script>
+</body>
+</html>
