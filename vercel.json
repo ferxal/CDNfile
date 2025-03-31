@@ -16,4 +16,11 @@
       }
     }
   ]
+  "redirects": [
+    { 
+      "source": "/steam", 
+      "destination": "https://s.team/p/hthw-qfkn/KDNKMFGV", 
+      "statusCode": 301 
+    }
+  ]
 }
